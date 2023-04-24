@@ -1,0 +1,678 @@
+@media (max-width: 48em) {
+    html {
+        font-size: 1.33333vw;
+        -webkit-text-size-adjust: none;
+    }
+
+    body {
+        -webkit-text-size-adjust: none;
+    }
+
+    .mobHide {
+        display: none !important;
+    }
+
+    .mobShow {
+        display: block !important;
+    }
+
+    .container {
+        padding: 0;
+        width: 100%;
+    }
+
+    header .wrapper {
+        height: 18rem;
+    }
+
+    header .logoMain {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    header .logoMain img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    header .actions {
+        height: 9rem;
+    }
+
+    header .headerMenu {
+        display: block;
+        position: fixed;
+        background-color: white;
+        height: 90rem;
+        width: 100%;
+        top: 90px;
+        left: 0;
+        transform-origin: 0 0;
+        transform: translate(100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+        z-index: 10;
+    }
+
+    header .headerMenu .mobMenu {
+        text-align: center;
+        line-height: 12rem;
+        height: 12rem;
+        font-size: 3.2rem;
+        box-shadow: 0px 2px 10px rgba(131, 131, 131, 0.11);
+        text-transform: none;
+    }
+
+    header .headerMenu ul {
+        display: block;
+    }
+
+    header .actions li > a {
+        width: 9rem;
+        height: 9rem;
+        border-radius: 5rem;
+        padding-top: 2.5rem;
+    }
+
+    header .actions li > a .bag {
+        width: 3.2rem;
+        height: 3.2rem;
+        line-height: 3.2rem;
+        border-radius: 1.6rem;
+        font-size: 2.4rem;
+    }
+
+    .iconProfile {
+        width: 3.5rem;
+        height: 4rem;
+    }
+
+    .iconLongArrow:hover path {
+        stroke: #292D32;
+        transition: 0.3s;
+    }
+
+    .iconBag {
+        width: 3.8rem;
+        height: 4.2rem;
+    }
+
+    .iconBlueButton {
+        width: 9rem;
+        height: 9rem;
+        border-radius: 5rem;
+        line-height: 9.4rem !important;
+        font-size: 3.8rem !important;
+    }
+
+    .iconLongArrow {
+        width: 12.8rem;
+        height: 2.8rem;
+    }
+
+    .iconFb {
+        width: 1.4rem;
+        height: 2.6rem;
+    }
+
+    .iconMenu {
+        margin-top: 0 !important;
+        width: 9.2rem !important;
+        height: 9.2rem !important;
+    }
+
+    .headerMenu a {
+        font-size: initial;
+    }
+
+    footer {
+        position: relative;
+    }
+
+    textarea {
+        font-size: 3.2rem;
+        line-height: 4.5rem;
+        height: 14.5rem;
+    }
+
+    .wrapper {
+        width: 69rem;
+        font-size: 3rem;
+        line-height: 6rem;
+    }
+
+    #toggleMenu:checked ~ .headerMenu {
+        transform: none;
+    }
+
+    #toggleMenu {
+        display: flex;
+        position: absolute;
+        z-index: 11;
+        top: 4.3rem;
+        right: 4.3rem;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 100%;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    #toggleMenu:checked {
+        position: fixed;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .sliderContentWrapper {
+        display: block;
+        margin-left: 0;
+    }
+
+    .sliderContentWrapper .sliderItem {
+        display: block;
+        width: 69rem;
+        margin-left: 3rem;
+        height: auto;
+    }
+
+    .sliderContentWrapper .information {
+        margin: 16rem 0 0;
+        width: auto;
+    }
+
+    .sliderContentWrapper a {
+        font-size: 3rem;
+        line-height: 6rem;
+    }
+
+    .sliderContentWrapper .information .title {
+        font-size: 6rem;
+        line-height: 7rem;
+        margin-top: 1rem;
+        margin-bottom: 6.6rem;
+        overflow: hidden;
+        height: 14rem;
+        position: relative;
+    }
+
+    .sliderContentWrapper .information .textGray {
+        position: relative;
+        height: 4rem;
+        overflow: hidden;
+    }
+
+    .sliderContentWrapper .imgWrapper {
+        width: auto;
+        height: 69rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .sliderContentWrapper .imgWrapper img {
+        margin: 3rem auto 0;
+        width: 100%;
+        max-height: 63rem;
+        max-width: 69rem;
+    }
+
+    .sliderContentWrapper .owl-carousel {
+        width: auto;
+    }
+
+    .sliderContentWrapper .rightBlock {
+        width: auto;
+        height: 39.2rem;
+        background: #F9F9F9;
+        display: flex;
+        align-items: center;
+    }
+
+    .sliderContentWrapper .rightBlock .title {
+        margin-top: 0;
+        font-size: 4rem;
+        line-height: 5.2rem;
+        width: 30rem;
+    }
+
+    .sliderContentWrapper .rightBlock .mobShow img {
+        margin-left: -7rem;
+        width: 50.4rem;
+    }
+
+    .sliderContentWrapper .rightBlock .more {
+        top: -10rem;
+        right: 3rem;
+        left: initial;
+    }
+
+    .sliderContentWrapper .owl-dots {
+        top: initial;
+        bottom: 7rem;
+        right: 23rem;
+    }
+
+    .owl-dot {
+        width: 0.6rem;
+        height: 0.6rem;
+        margin-right: 2rem;
+    }
+
+    .owl-dot.active {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 1rem;
+    }
+
+    .bgText {
+        font-size: 22rem;
+        line-height: 18rem;
+        margin-top: 3.6rem;
+        margin-left: 6rem;
+    }
+
+    .textGray {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .catalogSection {
+        padding-top: 45rem;
+    }
+
+    .catalog {
+        width: auto;
+        margin-left: 0;
+        padding: 12rem 0 8rem;
+    }
+
+    .catalog .title_h2 {
+        font-size: 3em;
+    }
+
+    .catalog .sliderItem {
+        margin-left: 0;
+        width: auto;
+        display: block;
+        height: 55rem;
+        margin-bottom: 4rem;
+    }
+
+    .catalog .sliderItem .imgWrapper {
+        width: auto;
+        height: 41rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .catalog .sliderItem .imgWrapper img {
+        max-width: 65rem;
+        max-height: 37rem;
+        margin: 0 auto;
+    }
+
+    .catalog span {
+        font-size: 3rem;
+        line-height: 6rem;
+    }
+
+    .catalog .iconBlueButton {
+        line-height: 9rem;
+    }
+
+    .catalog .sliderItem.textItem {
+        height: 50rem;
+    }
+
+    .catalog .sliderItem.textItem .textGray {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        margin-bottom: 6rem;
+    }
+
+    .catalog .itemNum {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+
+    .catalog .textGray {
+        font-size: 3rem;
+        line-height: 4rem;
+        margin-bottom: 0;
+    }
+
+    .catalog .category {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .ourAdvantages {
+        display: block;
+        height: auto;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .ourAdvantages .leftBlock {
+        position: absolute;
+        top: 38rem;
+        right: 0;
+        text-align: right;
+    }
+
+    .title_h2 {
+        font-size: 1.8em;
+    }
+
+    .ourAdvantages .rightBlock {
+        padding-top: 8rem;
+        font-size: 3rem;
+        line-height: 6rem;
+        position: relative;
+        z-index: 2;
+        padding-bottom: 37.6rem;
+    }
+
+    .ourAdvantages .rightBlock .textGray {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        padding-right: 4rem;
+        margin-bottom: 6rem;
+    }
+
+    .ourAdvantages .leftBlock .imgWrapper img {
+        max-width: 58rem;
+    }
+
+    .ourAdvantagesList {
+        width: auto;
+        display: block;
+        padding-bottom: 4rem;
+    }
+
+    .sliderItem.imgOverflow .imgWrapper img {
+        margin-top: 0;
+    }
+
+    .bgText.smallText {
+        font-size: 14rem;
+        line-height: 14rem;
+        margin-top: 57rem;
+        margin-left: 2.8rem;
+    }
+
+    .ourAdvantagesList .sliderItem {
+        display: block;
+        width: auto;
+        height: auto;
+        margin-bottom: 3rem;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 5.2rem;
+        border-radius: 1.5rem;
+        height: 44rem;
+    }
+
+    h3 {
+        font-size: 3.6rem;
+        line-height: 4.5rem;
+    }
+
+    .ourAdvantagesList .sliderItem .bgLine {
+        top: -1.6rem;
+    }
+
+    .ourAdvantagesList .sliderItem .bgLine img {
+        height: 14rem;
+    }
+
+    .ourAdvantagesList .sliderItem .textGray {
+        font-size: 3rem;
+        line-height: 3.8rem;
+        margin: 0 6rem 0 3rem;
+    }
+
+    .ourAdvantagesList .sliderItem .icon {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .ourAdvantagesList .sliderItem .icon img {
+        width: 6rem;
+        margin-top: 2rem;
+    }
+
+    .ourAdvantagesList .sliderItem h3 {
+        margin: 16.2rem 6rem 2rem 3rem;
+    }
+
+    .formWithContacts {
+        display: block;
+    }
+
+    .formSection.contactsPage .formWithContacts {
+        margin: 0 -3rem;
+        border-radius: 0;
+    }
+
+    .formSection.contactsPage .ourContacts {
+        width: auto;
+        border-color: #F9F9F9;
+    }
+
+    .ourContacts {
+        padding: 8rem 10rem 8rem 3rem;
+        height: auto;
+    }
+
+    .ourContacts .textGray {
+        font-size: 3rem;
+        line-height: 4.5rem;
+    }
+
+    .contacts {
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+    }
+
+    .ourContacts .contacts {
+        margin-top: 5.6rem;
+        margin-bottom: 5rem;
+    }
+
+    .contacts .title {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .contacts .icon {
+        top: 0.1rem;
+    }
+
+    .contacts .icon img {
+        width: 3.4rem;
+    }
+
+    .ourContacts .bg {
+        right: 8rem;
+        top: initial;
+        bottom: -12rem;
+    }
+
+    .ourContacts .bg img {
+        width: 24rem;
+        transform: rotate(20deg);
+    }
+
+    .socialLinks li a {
+        width: 5.2rem;
+        height: 5.2rem;
+        border-radius: 3rem;
+        border: 2px solid #292D32;
+    }
+
+    .iconCallMess {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+    .socialLinks li a .iconFb {
+        margin-top: 0.9rem;
+    }
+
+    .requestForm {
+        padding: 12rem 3rem 8rem;
+        width: auto;
+        height: auto;
+    }
+
+    .requestForm h2 {
+        margin-bottom: 3rem;
+    }
+
+    .requestForm p {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        margin-right: -1rem;
+    }
+
+    .requestForm label {
+        font-size: 3rem;
+        line-height: 2rem;
+    }
+
+    .requestForm input[type=text], .requestForm textarea {
+        font-size: 3.4rem;
+    }
+
+    .requestForm textarea {
+        line-height: 5.2rem;
+        height: 16rem;
+    }
+
+    .requestForm input[type=text] {
+        line-height: 8rem;
+        height: 8rem;
+    }
+
+    footer .logoMain {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .footerNavigationBlock {
+        margin-left: 0;
+        display: block;
+        font-size: 3rem;
+        line-height: 3.8rem;
+        padding-top: 44.8rem;
+        position: relative;
+    }
+
+    .footerNavigationBlock .title {
+        font-size: 3.6rem;
+        line-height: 4.2rem;
+    }
+
+    footer .logoMain img {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .navHelp {
+        position: absolute;
+        top: 4rem;
+    }
+
+    .navProfile {
+        position: absolute;
+        top: 4rem;
+        left: 34.4rem;
+    }
+
+    .footerNavigationBlock ul {
+        padding-right: 0;
+    }
+
+    .footerNavigationBlock ul {
+        width: auto;
+    }
+
+    .navCatalog li.title {
+        float: none;
+    }
+
+    .navCatalog li {
+        float: right;
+        width: 50%;
+    }
+
+    .footerNavigationBlock li {
+        margin-bottom: 2rem;
+    }
+
+    .addMargin {
+        margin-top: 0.6rem;
+    }
+
+    .contactsBlock {
+        margin-top: 2rem;
+        display: block;
+        font-size: 3rem;
+        line-height: 4.5rem;
+    }
+
+    .contactsBlock .title {
+        font-size: 3rem;
+        line-height: 4rem;
+        margin-top: 4rem;
+    }
+
+    footer .socialLinks {
+        margin-top: 6rem;
+        padding-bottom: 2rem;
+    }
+
+    footer .bgText.smallText {
+        top: initial;
+        bottom: 3rem;
+    }
+
+    .headerMenu li {
+        margin: 8rem 3.6rem 0 3.6rem;
+        font-size: 3rem;
+        line-height: 4.8rem;
+        padding-bottom: 1rem;
+    }
+
+    .sliderSection {
+        height: 106rem;
+    }
+
+    .sliderSection .bgText {
+        margin-top: 74rem;
+    }
+
+    .sliderSection.main .bgText {
+        margin-top: 3rem;
+    }
+
+    .bgText.smallText {
+        margin-left: 0;
+    }
+
+    div .uploadFileLabel > input {
+        display: none;
+    }
+
+    .uploadIcon {
+        width: 9.2rem;
+        height: 9.2rem;
+        margin-right: 1.4rem;
+    }
+
+    .uploadIcon > img {
+        width: 4rem;
+        height: 5rem;
+    }
+}

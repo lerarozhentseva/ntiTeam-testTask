@@ -1,0 +1,1158 @@
+@font-face {
+    font-family: "Circe Bold";
+    src: url("../assets/fonts/Circe-Bold/Circe-Bold.eot");
+    src: local("Circe Bold"), local("Circe Bold"), url("../assets/fonts/Circe-Bold/Circe-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Circe-Bold/Circe-Bold.woff2") format("woff2"), url("../assets/fonts/Circe-Bold/Circe-Bold.woff") format("woff"), url("../assets/fonts/Circe-Bold/Circe-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Rubik One";
+    src: url("../assets/fonts/rubikone/EuclidCircularA-Bold.eot");
+    src: local("Rubik One"), local("Rubik One"), url("../assets/fonts/rubikone/EuclidCircularA-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/rubikone/rubikoneregular.woff2") format("woff2"), url("../assets/fonts/rubikone/rubikoneregular.woff") format("woff"), url("../assets/fonts/rubikone/rubikoneregular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EuclidCircularA-Light";
+    src: url("../assets/fonts/EuclidCircularA-Light/EuclidCircularA-Bold.eot");
+    src: local("EuclidCircularA-Light"), local("EuclidCircularA-Light"), url("../assets/fonts/EuclidCircularA-Light/EuclidCircularA-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/EuclidCircularA-Light/EuclidCircularA-Light.woff2") format("woff2"), url("../assets/fonts/EuclidCircularA-Light/EuclidCircularA-Light.woff") format("woff"), url("../assets/fonts/EuclidCircularA-Light/EuclidCircularA-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EuclidCircularA-Bold";
+    src: url("../assets/fonts/EuclidCircularA-Bold/EuclidCircularA-Bold.eot");
+    src: local("EuclidCircularA-Bold"), local("EuclidCircularA-Bold"), url("../assets/fonts/EuclidCircularA-Bold/EuclidCircularA-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/EuclidCircularA-Bold/EuclidCircularA-Bold.woff2") format("woff2"), url("../assets/fonts/EuclidCircularA-Bold/EuclidCircularA-Bold.woff") format("woff"), url("../assets/fonts/EuclidCircularA-Bold/EuclidCircularA-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto/EuclidCircularA-Bold.eot");
+    src: local("Roboto"), local("Roboto"), url("../assets/fonts/Roboto/EuclidCircularA-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Roboto/EuclidCircularA-Bold.woff2") format("woff2"), url("../assets/fonts/Roboto/EuclidCircularA-Bold.woff") format("woff"), url("../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../assets/fonts/Roboto/EuclidCircularA-Bold.eot");
+    src: local("Roboto Light"), local("Roboto Light"), url("../assets/fonts/Roboto/EuclidCircularA-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Roboto/EuclidCircularA-Bold.woff2") format("woff2"), url("../assets/fonts/Roboto/EuclidCircularA-Bold.woff") format("woff"), url("../assets/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Thin";
+    src: url("../assets/fonts/Roboto/EuclidCircularA-Bold.eot");
+    src: local("Roboto Thin"), local("Roboto Thin"), url("../assets/fonts/Roboto/EuclidCircularA-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Roboto/EuclidCircularA-Bold.woff2") format("woff2"), url("../assets/fonts/Roboto/EuclidCircularA-Bold.woff") format("woff"), url("../assets/fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../assets/fonts/Roboto/EuclidCircularA-Bold.eot");
+    src: local("Roboto Bold"), local("Roboto Bold"), url("../assets/fonts/Roboto/EuclidCircularA-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Roboto/EuclidCircularA-Bold.woff2") format("woff2"), url("../assets/fonts/Roboto/EuclidCircularA-Bold.woff") format("woff"), url("../assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Euclid Circular A", sans-serif;
+    font-size: 0.52vw;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+body {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.2;
+    background-color: white;
+}
+
+input,
+textarea {
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: unset;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+button,
+input,
+a,
+textarea {
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+    outline: none;
+}
+
+button:active,
+input:active,
+a:active,
+textarea:active {
+    outline: none;
+}
+
+button {
+    border: none;
+    color: inherit;
+    font: inherit;
+    text-align: inherit;
+    padding: 0;
+    background-color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section {
+    font-size: 1.6rem;
+}
+
+.h3 {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.title_h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.8em;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 100%;
+    padding-bottom: 45rem;
+}
+
+a:hover {
+    color: #48A4EB;
+}
+
+header {
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+.iconSearch {
+    position: relative;
+    display: inline-block;
+    background: url(../assets/img/icons/search.svg) no-repeat;
+    width: 1.9rem;
+    height: 1.9rem;
+    background-size: 100%;
+    bottom: 0.2rem;
+}
+
+.iconProfile {
+    position: relative;
+    display: inline-block;
+    width: 2.1rem;
+    height: 2.3rem;
+}
+
+.iconStats {
+    position: relative;
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.iconFavorite {
+    display: inline-block;
+    position: relative;
+    width: 2.4rem;
+    height: 2.3rem;
+    margin-top: 0.2rem;
+
+}
+
+.iconBag {
+    display: inline-block;
+    position: relative;
+    width: 2.2rem;
+    height: 2.4rem;
+}
+
+.iconBlueButton {
+    position: relative;
+    display: inline-block;
+    font-family: "Circe Bold";
+    background-color: #33A9FF;
+    width: 5.5rem;
+    height: 5.5rem;
+    line-height: 5.5rem !important;
+    border-radius: 3rem;
+    text-align: center;
+    margin-right: 1.2rem;
+    color: white;
+    font-size: 1.9rem !important;
+    transition: 0.2s;
+}
+
+a:hover .iconBlueButton {
+    color: #48A4EB;
+    background-color: white;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.15);
+}
+
+.iconLongArrow {
+    position: relative;
+    display: inline-block;
+    width: 10.4rem;
+    height: 2.2rem;
+}
+
+a:hover .iconLongArrow path {
+    stroke: #48A4EB;
+}
+
+.iconLongArrow path {
+    stroke: #292D32;
+}
+
+.iconLongArrow:hover path {
+    stroke: #48A4EB;
+}
+
+.owl-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #D0D0D0 !important;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+.owl-dot.active {
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #292D32 !important;
+}
+
+.line {
+    clear: both;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12.3rem;
+}
+
+header .leftBlock {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .rightBlock {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoMain {
+    width: 12rem;
+}
+
+.logoMain img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.headerMenu ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.headerMenu li {
+    margin-right: 4.5rem;
+}
+
+.headerMenu .iconSearch {
+    position: relative;
+    margin-left: 0.5rem;
+    top: 0.2rem;
+    cursor: pointer;
+}
+
+.headerMenu a {
+    font-size: 1.5rem;
+}
+
+.bag {
+    position: absolute;
+    width: 1.6rem;
+    height: 1.6rem;
+    top: -0.1rem;
+    right: 0;
+    background-color: #48A4EB;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    border-radius: 1rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 145rem;
+}
+
+.actions ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.actions > ul > li > a {
+    position: relative;
+    display: inline-block;
+    width: 4.9rem;
+    height: 4.9rem;
+    background-color: #F9F9F9;
+    border-radius: 2.5rem;
+    text-align: center;
+    padding-top: 1.2rem;
+}
+
+.actions li > a .pathStroke path {
+    stroke: #292D32;
+}
+
+.actions > ul > li > a .pathFill path {
+    fill: #292D32;
+}
+
+.actions > ul > li > a .rectStroke rect {
+    stroke: #292D32;
+}
+
+.actions li > a:hover {
+    background-color: #B7B7B7;
+}
+
+.actions > ul > li > a:hover .pathFill path {
+    fill: white;
+}
+
+.actions > ul > li > a:hover .pathStroke path {
+    stroke: white;
+}
+
+.actions > ul > li > a:hover .rectStroke rect {
+    stroke: white;
+}
+
+.actions > ul > li > a:hover .pathFill path {
+    fill: white;
+}
+
+.actions a img {
+    margin-top: 1.3rem;
+}
+
+.actions > ul > li {
+    margin-left: 3rem;
+}
+
+.bgGray {
+    background-color: #F2F2F2;
+}
+
+.textGray {
+    font-family: "Roboto Light";
+    color: #838383;
+    font-size: 1.8rem;
+}
+
+.bgText {
+    position: absolute;
+    font-family: "Rubik One";
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.685417) 5.87%, rgba(242, 242, 242, 0.7) 100%);
+    color: #0B2349;
+    margin-top: 8rem;
+    margin-left: -2rem;
+    font-size: 29rem;
+    line-height: 20rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bgText.smallText {
+    font-size: 18.7rem;
+    line-height: 17.3rem;
+    margin-left: 0;
+    margin-top: 12.5rem;
+}
+
+.sliderContentWrapper {
+    margin-left: 26rem;
+    position: relative;
+    display: flex;
+}
+
+.sliderContentWrapper .owl-carousel {
+    width: 114rem;
+}
+
+.sliderContentWrapper .sliderItem {
+    width: 114rem;
+    display: flex;
+    justify-content: space-between;
+    height: 68.3rem;
+    align-items: center;
+}
+
+.sliderContentWrapper .imgWrapper {
+    width: 60rem;
+    text-align: center;
+}
+
+.sliderContentWrapper .imgWrapper img {
+    max-height: 55.5rem;
+    max-width: 55.5rem;
+}
+
+.sliderContentWrapper .owl-dots {
+    position: absolute;
+    right: 4.1rem;
+    top: 50rem;
+}
+
+.sliderContentWrapper .information {
+    margin-left: 13rem;
+    width: 42rem;
+}
+
+.sliderContentWrapper a {
+    font-size: 1.6rem;
+}
+
+.sliderContentWrapper .information .title {
+    font-size: 5rem;
+    line-height: 5.9rem;
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+}
+
+.sliderContentWrapper .rightBlock {
+    position: relative;
+    width: 50.9rem;
+    background: #F9F9F9 url(../assets/img/bg_tranparent_1.png) no-repeat left top;
+    background-size: contain;
+    height: 68.3rem;
+    font-size: 2.5rem;
+}
+
+.sliderSection.main .bgText {
+    animation: fadeInUp;
+    animation-duration: 4s;
+}
+
+.sliderSection.main .rightBlock {
+    background-size: contain;
+}
+
+.sliderContentWrapper .rightBlock .title {
+    margin-top: 31.9rem;
+    margin-left: 4rem;
+    width: 20rem;
+}
+
+.sliderContentWrapper .rightBlock .more {
+    position: absolute;
+    left: 4rem;
+    top: 49.7rem;
+}
+
+.iconFb {
+    width: 1rem;
+    height: 2rem;
+}
+
+.iconCallMess {
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+.verticalButton {
+    position: absolute;
+    left: 0;
+    top: 41rem;
+    color: #838383;
+    font-size: 1.6rem;
+    font-family: "Roboto Light";
+}
+
+.verticalButton span {
+    position: relative;
+    transform: rotate(-90deg);
+    top: 1rem;
+    line-height: 2.5rem;
+    display: inline-block;
+    transform-origin: left top;
+}
+
+.verticalButton img {
+    width: 2.5rem !important;
+}
+
+.catalogSection {
+    background-color: white;
+}
+
+.catalog {
+    padding: 16.4rem 0 18rem 0;
+    width: 144rem;
+    margin-left: -4rem;
+    font-size: 0;
+}
+
+.catalog .iconBlueButton {
+    line-height: 5.5rem;
+}
+
+.catalog .sliderItem {
+    background-color: #F2F2F2;
+    width: 44rem;
+    height: 37.1rem;
+    display: inline-block;
+    margin-left: 4rem;
+    vertical-align: top;
+    margin-bottom: 4rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+}
+
+.catalog .sliderItem .imgWrapper {
+    height: 26.4rem;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 43rem;
+    margin-left: -0.5rem;
+}
+
+.catalog .sliderItem .imgWrapper img {
+    max-height: 23rem;
+    max-width: 36rem;
+}
+
+.catalog .textItem .textGray {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    margin-bottom: 4.6rem;
+}
+
+.catalog .sliderItem.textItem {
+    background: transparent;
+}
+
+.catalog .sliderItem.textItem .textGray {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.catalog span {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
+.catalog .itemNum {
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    font-family: "Roboto Thin";
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    color: #292D32;
+    font-weight: 200;
+}
+
+.catalog .textGray {
+    margin: 0 4rem 0.5rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.catalog .category {
+    margin: 0 4rem;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+}
+
+.sliderItem.imgOverflow .imgWrapper {
+    vertical-align: top;
+}
+
+.sliderItem.imgOverflow .imgWrapper img {
+    margin-top: -2rem;
+}
+
+.ourAdvantages {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    height: 55rem;
+    margin-bottom: 5rem;
+}
+
+.ourAdvantages .leftBlock {
+    position: relative;
+}
+
+.ourAdvantages .leftBlock .imgWrapper {
+    width: 78rem;
+    vertical-align: top;
+    margin-left: -8rem;
+}
+
+.ourAdvantages .leftBlock .imgWrapper img {
+    max-width: 73.3rem;
+    vertical-align: top;
+    margin-top: 4rem;
+}
+
+.ourAdvantages .rightBlock {
+    font-size: 1.6rem;
+}
+
+.ourAdvantages .rightBlock .textGray {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    margin-bottom: 4.1rem;
+}
+
+.ourAdvantagesList {
+    width: 140rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7.3rem;
+}
+
+.ourAdvantagesList .sliderItem {
+    position: relative;
+    font-family: "EuclidCircularA-Bold";
+    width: 33rem;
+    height: 28.9rem;
+    background-color: #292D32;
+    color: white;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.ourAdvantagesList .sliderItem .bgLine {
+    top: 0;
+    right: 0;
+    left: initial;
+    position: absolute;
+}
+
+.ourAdvantagesList .sliderItem .bgLine img {
+    height: 9rem;
+}
+
+.ourAdvantagesList .sliderItem h3 {
+    margin: 12.5rem 2rem 1.3rem 3rem;
+}
+
+.ourAdvantagesList .sliderItem .icon {
+    background-color: #343A41;
+    color: white;
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.ourAdvantagesList .sliderItem .icon img {
+    margin-top: 2rem;
+    width: 3.6rem;
+}
+
+.ourAdvantagesList .sliderItem .textGray {
+    font-family: "EuclidCircularA-Light";
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #B7B7B7;
+    margin: 0 3rem;
+}
+
+.formWithContacts {
+    display: flex;
+    justify-content: stretch;
+    overflow: hidden;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.ourContacts {
+    background-color: #F9F9F9;
+    height: 84.2rem;
+    width: 70rem;
+    padding: 10rem 18rem 10rem 10rem;
+    position: relative;
+}
+
+.ourContacts .bg {
+    position: absolute;
+    top: 14.5rem;
+    right: -8.8rem;
+}
+
+.ourContacts .bg img {
+    width: 29.5rem;
+}
+
+.ourContacts .textGray {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.ourContacts .contacts {
+    margin-top: 5.3rem;
+    padding-bottom: 1rem;
+}
+
+.contacts {
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+}
+
+.contacts .title {
+    color: #838383;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.contacts li {
+    margin-bottom: 6.5rem;
+    margin-left: 5.6rem;
+    position: relative;
+}
+
+.contacts .icon {
+    position: absolute;
+    top: -0.5rem;
+    left: -5.6rem;
+}
+
+.contacts .icon img {
+    width: 3.6rem;
+}
+
+.requestForm {
+    background-color: #292D32;
+    color: white;
+    height: 84.2rem;
+    width: 70rem;
+    padding: 10rem 12.9rem 10rem;
+}
+
+.requestForm p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 4rem;
+}
+
+.requestForm label {
+    display: block;
+    background-color: #292D32;
+    padding: 0 0.8rem;
+    position: absolute;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-left: 2.3rem;
+    font-family: "Roboto Light";
+    color: #F2F2F2;
+}
+
+.requestForm input[type=text], .requestForm textarea {
+    font-family: "Roboto Light";
+    background-color: #292D32;
+    color: white;
+    font-size: 1.8rem;
+    border: 1px solid rgba(242, 242, 242, 0.5);
+    border-radius: 2rem;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+}
+
+.requestForm input[type=text] {
+    height: 5.9rem;
+    line-height: 5.9rem;
+    padding: 0 0.9rem;
+}
+
+.requestForm textarea {
+    height: 14.5rem;
+    padding: 2rem;
+    resize: none;
+}
+
+.formSection {
+    background-color: #eeeeee;
+    padding-bottom: 18rem;
+    margin-top: 11rem;
+}
+
+.formSection .bgText {
+    margin-top: 53rem;
+    font-size: 25.5rem;
+    line-height: 23.6rem;
+}
+
+.formSection.contactsPage {
+    background: linear-gradient(to right, #F9F9F9 50%, #292D32 50%);
+    padding-bottom: 0;
+}
+
+.formSectionBg {
+    background-color: white;
+    height: 35.7rem;
+    margin-bottom: -35.7rem;
+}
+
+.submitForm {
+    display: block;
+    cursor: pointer;
+}
+
+footer {
+    padding-top: 6rem;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer .logoMain {
+    float: left;
+}
+
+footer .wrapper {
+    position: relative;
+}
+
+footer .bgText.smallText {
+    right: -3.6rem;
+    font-size: 18.7rem;
+    line-height: 17.3rem;
+    background: linear-gradient(180deg, #f2f2f2 5.87%, rgba(242, 242, 242, 0) 100%);
+    opacity: 0.7;
+    margin-top: 7.5rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer .logoMain {
+    margin-top: 2.9rem;
+}
+
+footer .logoMain img {
+    width: 11.2rem;
+    height: 11.2rem;
+}
+
+.footerNavigationBlock {
+    margin-left: 27rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    font-family: "Roboto Light";
+    margin-bottom: 6rem;
+}
+
+.footerNavigationBlock ul {
+    width: 29rem;
+    padding-right: 3rem;
+}
+
+.footerNavigationBlock .title {
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+    font-family: Roboto;
+    margin-bottom: 1.5rem;
+}
+
+.footerNavigationBlock li {
+    margin-bottom: 1rem;
+}
+
+.contactsBlock {
+    padding: 4rem 0;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
+.contactsBlock .title {
+    color: #838383;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    margin-bottom: 1.1rem;
+}
+
+.socialLinks {
+    font-size: 0;
+}
+
+.socialLinks li {
+    display: inline-block;
+    margin-left: 1.8rem;
+    vertical-align: top;
+}
+
+.socialLinks li a {
+    display: inline-block;
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 2rem;
+    border: 3px solid #292D32;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.socialLinks li a .iconFb {
+    margin-top: 0.6rem;
+}
+
+.socialLinks li a .iconFb path {
+    fill: #292D32;
+}
+
+.socialLinks li a .iconCallMess path {
+    stroke: #292D32;
+}
+
+.socialLinks li a .iconCallMess path:last-child {
+    fill: #292D32;
+    stroke: none;
+}
+
+.socialLinks li a:hover {
+    border-color: #48A4EB;
+}
+
+.socialLinks li a:hover .iconFb path {
+    fill: #48A4EB;
+    transition: 0.3s;
+}
+
+.socialLinks li a:hover .iconCallMess path {
+    stroke: #48A4EB;
+    transition: 0.3s;
+}
+
+.socialLinks li a:hover .iconCallMess path:last-child {
+    stroke: none;
+    fill: #48A4EB;
+    transition: 0.3s;
+}
+
+.socialLinks li.deleteStyle a, footer .deleteStyle {
+    border: 0;
+}
+
+.socialLinks li.deleteStyle a svg {
+    margin-top: 0;
+}
+
+.buttonBlue {
+    background-color: #33A9FF;
+    color: white;
+    cursor: pointer;
+    height: 4.4rem;
+    line-height: 4.4rem;
+    text-align: center;
+    padding: 0 4rem;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+.buttonBlue:hover {
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #C0C0C0;
+    border-radius: 2rem;
+    resize: none;
+    height: 13.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+div .uploadFileLabel {
+    position: static;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-left: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: color .3s ease;
+}
+
+div .uploadFileLabel:hover {
+    color: #48A4EB;
+}
+
+div .uploadFileLabel > input {
+    display: none;
+}
+
+.uploadIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-right: 1.2rem;
+    border: 2px solid #48A4EB;
+    border-radius: 100%;
+}
+
+.uploadIcon > img {
+    width: 2rem;
+    height: 2.5rem;
+}
+
+#toggleMenu {
+    display: none;
+    opacity: 0;
+}
+
+.mobShow {
+    display: none !important;
+}
+
+.owl-carousel .sliderItem img {
+    display: none;
+}
+
+.owl-carousel .owl-item {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.owl-carousel .sliderItem img {
+    display: block;
+}
+
+.menu {
+    display: none;
+    width: 40rem;
+    position: absolute;
+    top: 12.5rem;
+    right: 31rem;
+    border-radius: 1.6rem;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.menu::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1.25rem;
+    right: 19rem;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent white transparent;
+}
+
+.menu ul {
+    flex-direction: column;
+}
+
+.menu li a {
+    white-space: nowrap;
+    padding-left: 20px;
+    width: 4.9rem;
+    height: 4.9rem;
+    border-radius: 2.5rem;
+    text-align: center;
+    display: inline-block;
+    padding-top: 1.2rem;
+    position: relative;
+    font-family: "Roboto";
+    font-size: 1.3em;
+
+}
+
+.profileIconMenu svg {
+    margin-right: 2rem;
+}
+
+.menu li:not(:first-child) {
+    border-top: 1px solid #e5e5e5;
+    padding: 0.8rem 0;
+}
+
+.menu li:first-child {
+    margin: 2rem 0;
+    margin-left: 2.5rem !important;
+}
