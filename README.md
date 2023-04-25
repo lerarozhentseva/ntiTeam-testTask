@@ -6,3 +6,6 @@
 3. Slider (using jQuery), droptown menu on hover (using Javascript), burger menu, form validation
 
 ## Used: HTML, CSS, JavaScript, JQuery
+
+## Deployed site on Netlify
+[Click here](https://polite-raindrop-302d73.netlify.app/)
