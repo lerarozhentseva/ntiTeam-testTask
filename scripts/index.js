@@ -18,7 +18,6 @@ function formValidation(event) {
   const name = document.querySelector('input[name="name"]').value.trim();
   const phone = document.querySelector('input[name="phone"]').value.trim();
   const message = document.querySelector('textarea[name="message"]').value.trim();
-  const file = document.querySelector('input[type="file"]').files[0];
 
   const phoneRegExp = /^\d{10,12}$/;
 
@@ -31,15 +30,8 @@ function formValidation(event) {
     alert('Номер телефона введен некорректно!');
     return;
   }
-
-  const formData = new FormData();
-  formData.append('name', name);
-  formData.append('phone', phone);
-  formData.append('message', message);
-  if (file) {
-    formData.append('file', file, file.name);
-  }
 }
+
 const submitButton = document.querySelector('.submitForm');
 submitButton.addEventListener('click', formValidation);
 
