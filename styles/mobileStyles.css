@@ -73,6 +73,16 @@
         padding-top: 2.5rem;
     }
 
+    header .actions .mobIconSearch {
+        padding-top: 3rem;
+        margin-right: 1rem;
+    }
+
+    header .actions .iconSearch {
+        width: 4rem;
+        height: 5rem;
+    }
+
     header .actions li > a .bag {
         width: 3.2rem;
         height: 3.2rem;
