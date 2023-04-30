@@ -556,7 +556,7 @@ header .rightBlock {
 }
 
 .catalog .sliderItem {
-    background-color: #F2F2F2;
+    background-color: #F9F9F9;
     width: 44rem;
     height: 37.1rem;
     display: inline-block;
@@ -565,6 +565,10 @@ header .rightBlock {
     margin-bottom: 4rem;
     border-radius: 2rem;
     font-size: 1.8rem;
+}
+
+.catalog .sliderItem:nth-of-type(even) {
+    background-color: #F2F2F2;
 }
 
 .catalog .sliderItem .imgWrapper {

@@ -81,6 +81,7 @@
     header .actions .iconSearch {
         width: 4rem;
         height: 5rem;
+        background-color: #FFFFFF;
     }
 
     header .actions li > a .bag {
@@ -306,6 +307,10 @@
         margin-bottom: 4rem;
     }
 
+    .catalogSection .catalog .sliderItem:not(:first-of-type) {
+        background-color: #EEEEEE !important;
+    }
+
     .catalog .sliderItem .imgWrapper {
         width: auto;
         height: 41rem;
@@ -427,8 +432,14 @@
         top: 13rem;
     }
 
+    .calendar .number {
+        font-size: 3.5rem !important;
+        font-weight: 900;
+    }
+
     .calendar .mounth {
-        font-size: 2rem !important;
+        font-size: 2.5rem !important;
+        font-weight: normal;
     }
 
     .lastNews .title_block {
@@ -648,6 +659,10 @@
         margin-top: 0.9rem;
     }
 
+    .contactsBlock .socialLinks .deleteStyle {
+        margin-left: 4rem;
+    }
+
     .requestForm {
         padding: 12rem 3rem 8rem;
         width: auto;
@@ -681,6 +696,10 @@
     .requestForm input[type=text] {
         line-height: 8rem;
         height: 8rem;
+    }
+
+    .formInput {
+        margin: 6rem 0;
     }
 
     footer .logoMain {
