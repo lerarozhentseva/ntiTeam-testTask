@@ -46,3 +46,32 @@ iconProfile.addEventListener('mouseenter', () => {
 iconProfile.addEventListener('mouseleave', () => {
   menu.style.display = 'none';
 });
+
+
+const toggleMenu = document.getElementById('toggleMenu');
+const headerMenu = document.querySelector('.headerMenu');
+const wrapper = document.querySelector('header .wrapper');
+const overlay = document.querySelector('.overlay');
+const dimmedArea = document.querySelector('.dimmedArea');
+
+toggleMenu.addEventListener('click', () => {
+  if (toggleMenu.checked) {
+    wrapper.style.position = 'fixed';
+    wrapper.style.width = '100%';
+    wrapper.style.backgroundColor = 'white';
+    wrapper.style.zIndex = '20';
+    headerMenu.style.display = 'block';
+    wrapper.style.padding = '0 15px';
+    dimmedArea.classList.add('dimmed-area');
+  } else {
+    headerMenu.style.display = 'none';
+    wrapper.style.position = '';
+    wrapper.style.width = '';
+    wrapper.style.backgroundColor = '';
+    wrapper.style.zIndex = '';
+    wrapper.style.padding = '';
+    overlay.style.display = 'none';
+    overlay.style.opacity = '0';
+    dimmedArea.classList.remove('dimmed-area');
+  }
+});
