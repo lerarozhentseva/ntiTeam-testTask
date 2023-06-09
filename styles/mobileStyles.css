@@ -161,8 +161,8 @@
         z-index: 11;
         top: 4.3rem;
         right: 4.3rem;
-        width: 7rem;
-        height: 7rem;
+        width: 15rem;
+        height: 15rem;
         border-radius: 100%;
         -webkit-tap-highlight-color: transparent;
     }
@@ -808,6 +808,7 @@
     .bgText.smallText {
         margin-left: 0;
     }
+
     .overlay {
         position: fixed;
         top: 0;
@@ -817,5 +818,5 @@
         background-color: rgba(0, 0, 0, 0.5);
         z-index: 3;
         display: none;
-        }
+    }
 }
